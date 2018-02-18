@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Games>
+
+  <Game>
+    <Id>2</Id>
+    <Name>Rise of the Tomb Raider</Name>
+    <Release>November 10, 2015</Release>
+    <Price>$19.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Square Enix</Publisher>
+  </Game>
+
+  <Game>
+    <Id>3</Id>
+    <Name>Madden NFL 18</Name>
+    <Release>August 25, 2017</Release>
+    <Price>$29.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>EA Sports</Publisher>
+  </Game>
+
+  <Game>
+    <Id>4</Id>
+    <Name>Monster Hunter: World</Name>
+    <Release>January 26, 2018</Release>
+    <Price>$59.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Capcom</Publisher>
+  </Game>
+
+  <Game>
+    <Id>5</Id>
+    <Name>Call of Duty WWII</Name>
+    <Release>November 3, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Activision</Publisher>
+  </Game>
+
+  <Game>
+    <Id>6</Id>
+    <Name>Destiny</Name>
+    <Release>September 9, 2014</Release>
+    <Price>$19.77</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Activision</Publisher>
+  </Game>
+
+  <Game>
+    <Id>7</Id>
+    <Name>Shadow of the Colossus</Name>
+    <Release>February 6, 2018</Release>
+    <Price>$39.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+  </Game>
+
+  <Game>
+    <Id>8</Id>
+    <Name>Fortnite</Name>
+    <Release>July 25, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Gearbox Publishing</Publisher>
+  </Game>
+
+  <Game>
+    <Id>9</Id>
+    <Name>Dynasty Warriors 9</Name>
+    <Release>February 8, 2018</Release>
+    <Price>$59.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Tecmo Koei America Corp.</Publisher>
+  </Game>
+
+  <Game>
+    <Id>10</Id>
+    <Name>Resident Evil 7 Biohazard</Name>
+    <Release>January 24, 2017</Release>
+    <Price>$29.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Capcom</Publisher>
+  </Game>
+
+  <Game>
+    <Id>11</Id>
+    <Name>Need for Speed Payback</Name>
+    <Release>November 10, 2017</Release>
+    <Price>$29.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Electronic Arts</Publisher>
+  </Game>
+
+  <Game>
+    <Id>12</Id>
+    <Name>Wolfenstein II: The New Colossus</Name>
+    <Release>October 27, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Bethesda Softworks</Publisher>
+  </Game>
+
+  <Game>
+    <Id>13</Id>
+    <Name>Xenoblade Chronicles 2</Name>
+    <Release>December 1, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Nintendo</Publisher>
+  </Game>
+
+  <Game>
+    <Id>14</Id>
+    <Name>Sonic Forces</Name>
+    <Release>November 7, 2017</Release>
+    <Price>$39.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Sega of America</Publisher>
+  </Game>
+
+  <Game>
+    <Id>15</Id>
+    <Name>Pokken Tournament DX</Name>
+    <Release>September 22, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Nintendo of America</Publisher>
+  </Game>
+
+  <Game>
+    <Id>16</Id>
+    <Name>Splatoon 2</Name>
+    <Release>July 21, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Nintendo</Publisher>
+  </Game>
+
+</Games>
