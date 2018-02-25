@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Topical_Humlinski.Models.Game>
+
+@using PagedList;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+
+    //var pagedList = (IPagedList)Model;
+}
+
+@*Page @(pagedList.PageCount < pagedList.PageNumber ? 0 : pagedList.PageNumber) of @pagedList.PageCount
+
+@Html.PagedListPager(pagedList, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter}))*@
+
+<h2>GameCo Stock List</h2>
+
+@using (Html.BeginForm())
+{
+    <div id="FilterSearch" class="form-horizontal">
+
+        <div class="form-group">
+            @Html.Label("Search by Name", htmlAttributes: new { @class = "control-label col-md-2"})
+            @Html.TextBox("searchCriteria", null, new { @class = "form-control"})
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Filter by Platform", htmlAttributes: new { @class = "control-label col-md-2"})
+        @Html.DropDownList("platformFilter", new SelectList(ViewBag.Platforms), "All Platforms", new { @class = "form-control" })
+    </div>
+
+
+}
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.Name).ToHtmlString(), "Index", new { sortOrder = "Name"})
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Release)
+        </th>*@
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.Price).ToHtmlString(), "Index", new { sortOrder = "Price" })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Platform)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Publisher)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Release)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Platform)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Publisher)
+        </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
