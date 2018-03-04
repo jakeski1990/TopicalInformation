@@ -23,7 +23,7 @@ namespace Topical_Humlinski.Controllers
             using (gameRepository)
             {
                 games = gameRepository.SelectAll() as IList<Game>;
-                
+
             }
 
             IOrderedEnumerable<Game> sortedGames;
@@ -97,7 +97,7 @@ namespace Topical_Humlinski.Controllers
                 game = gameRepository.SelectOne(id);
             }
 
-                return View(game);
+            return View(game);
         }
 
         // GET: Game/Create
@@ -108,11 +108,17 @@ namespace Topical_Humlinski.Controllers
 
         // POST: Game/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Game game)
         {
             try
             {
-                // TODO: Add insert logic here
+                GameRepository gameRepository = new GameRepository();
+
+                using (gameRepository)
+                {
+                    gameRepository.Insert(game);
+                }
+
 
                 return RedirectToAction("Index");
             }
@@ -125,16 +131,29 @@ namespace Topical_Humlinski.Controllers
         // GET: Game/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            GameRepository gameRepository = new GameRepository();
+            Game game = new Game();
+
+            using (gameRepository)
+            {
+                game = gameRepository.SelectOne(id);
+            }
+
+            return View(game);
         }
 
         // POST: Game/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(Game game)
         {
             try
             {
-                // TODO: Add update logic here
+                GameRepository gameRepository = new GameRepository();
+
+                using (gameRepository)
+                {
+                    gameRepository.Update(game);
+                }
 
                 return RedirectToAction("Index");
             }
@@ -145,18 +164,32 @@ namespace Topical_Humlinski.Controllers
         }
 
         // GET: Game/Delete/5
+        [HttpGet]
         public ActionResult Delete(int id)
         {
-            return View();
+            GameRepository gameRepository = new GameRepository();
+            Game game = new Game();
+
+            using (gameRepository)
+            {
+                game = gameRepository.SelectOne(id);
+            }
+
+            return View(game);
         }
 
         // POST: Game/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id, Game game)
         {
             try
             {
-                // TODO: Add delete logic here
+                GameRepository gameRepository = new GameRepository();
+
+                using (gameRepository)
+                {
+                    gameRepository.Delete(id);
+                }
 
                 return RedirectToAction("Index");
             }
@@ -184,7 +217,7 @@ namespace Topical_Humlinski.Controllers
 
         }
 
-        
+
 
     }
 }

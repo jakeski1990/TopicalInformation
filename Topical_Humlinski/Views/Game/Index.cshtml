@@ -36,9 +36,9 @@
 
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <input type="button" value="Create New" onclick="location.href='@Url.Action("Create","Game")'" class="btn" />
 </p>
-<table class="table">
+<table class="table gameTable">
     <tr>
         <th>
             @Html.ActionLink(@Html.DisplayNameFor(model => model.Name).ToHtmlString(), "Index", new { sortOrder = "Name"})
@@ -55,7 +55,7 @@
         @*<th>
             @Html.DisplayNameFor(model => model.Publisher)
         </th>*@
-        <th></th>
+        @*<th></th>*@
     </tr>
 
 @foreach (var item in Model) {
@@ -76,9 +76,12 @@
             @Html.DisplayFor(modelItem => item.Publisher)
         </td>*@
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })*@
+            <input type="button" value="Edit" onclick="location.href='@Url.Action("Edit", "Game", new { id=item.Id })'" class="btn btn-default" />
+            <input type="button" value="Details" onclick="location.href='@Url.Action("Details", "Game", new { id=item.Id })'" class="btn btn-default" />
+            <input type="button" value="Delete" onclick="location.href='@Url.Action("Delete", "Game", new { id=item.Id })'" class="btn btn-danger" />
         </td>
     </tr>
 }

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Game>
+    <Id>3</Id>
+    <Name>Madden NFL 18</Name>
+    <Release>August 25, 2017</Release>
+    <Price>$29.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>EA Sports</Publisher>
+    <Image>..\..\Images\mnfl18.png</Image>
+  </Game>
+  <Game>
+    <Id>4</Id>
+    <Name>Monster Hunter: World</Name>
+    <Release>January 26, 2018</Release>
+    <Price>$59.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Capcom</Publisher>
+    <Image>..\..\Images\mhw.png</Image>
+  </Game>
+  <Game>
+    <Id>6</Id>
+    <Name>Destiny</Name>
+    <Release>September 9, 2014</Release>
+    <Price>$19.77</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Activision</Publisher>
+    <Image>..\..\Images\destiny.png</Image>
+  </Game>
+  <Game>
+    <Id>7</Id>
+    <Name>Shadow of the Colossus</Name>
+    <Release>February 6, 2018</Release>
+    <Price>$39.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Image>..\..\Images\sotc.png</Image>
+  </Game>
+  <Game>
+    <Id>8</Id>
+    <Name>Fortnite</Name>
+    <Release>July 25, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Gearbox Publishing</Publisher>
+    <Image>..\..\Images\fortnite.png</Image>
+  </Game>
+  <Game>
+    <Id>9</Id>
+    <Name>Dynasty Warriors 9</Name>
+    <Release>February 8, 2018</Release>
+    <Price>$59.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Tecmo Koei America Corp.</Publisher>
+    <Image>..\..\Images\dw9.png</Image>
+  </Game>
+  <Game>
+    <Id>10</Id>
+    <Name>Resident Evil 7 Biohazard</Name>
+    <Release>January 24, 2017</Release>
+    <Price>$29.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Capcom</Publisher>
+    <Image>..\..\Images\re7.jpg</Image>
+  </Game>
+  <Game>
+    <Id>11</Id>
+    <Name>Need for Speed Payback</Name>
+    <Release>November 10, 2017</Release>
+    <Price>$29.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Electronic Arts</Publisher>
+    <Image>..\..\Images\nfsp.png</Image>
+  </Game>
+  <Game>
+    <Id>12</Id>
+    <Name>Wolfenstein II: The New Colossus</Name>
+    <Release>October 27, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Xbone</Platform>
+    <Publisher>Bethesda Softworks</Publisher>
+    <Image>..\..\Images\w2tnc.png</Image>
+  </Game>
+  <Game>
+    <Id>13</Id>
+    <Name>Xenoblade Chronicles 2</Name>
+    <Release>December 1, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Image>..\..\Images\xc2.jpg</Image>
+  </Game>
+  <Game>
+    <Id>14</Id>
+    <Name>Sonic Forces</Name>
+    <Release>November 7, 2017</Release>
+    <Price>$39.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Sega of America</Publisher>
+    <Image>..\..\Images\sf.jpg</Image>
+  </Game>
+  <Game>
+    <Id>15</Id>
+    <Name>Pokken Tournament DX</Name>
+    <Release>September 22, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Nintendo of America</Publisher>
+    <Image>..\..\Images\ptdx.png</Image>
+  </Game>
+  <Game>
+    <Id>16</Id>
+    <Name>Splatoon 2</Name>
+    <Release>July 21, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>Switch</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Image>..\..\Images\s2.png</Image>
+  </Game>
+  <Game>
+    <Id>5</Id>
+    <Name>Call of Duty WWII</Name>
+    <Release>November 3, 2017</Release>
+    <Price>$59.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Activision</Publisher>
+    <Image>..\..\Images\codww2.jpg</Image>
+  </Game>
+  <Game>
+    <Id>2</Id>
+    <Name>Rise of The Tomb Raider</Name>
+    <Release>November 10, 2015</Release>
+    <Price>$19.99</Price>
+    <Platform>PS4</Platform>
+    <Publisher>Square Enix</Publisher>
+    <Image>..\..\Images\rottr.png</Image>
+  </Game>
+  <Game>
+    <Id>17</Id>
+    <Name>Game</Name>
+    <Release>January 10, 2007</Release>
+    <Price>$29.29</Price>
+    <Platform>PS4</Platform>
+    <Publisher>NameHere</Publisher>
+  </Game>
+</Games>

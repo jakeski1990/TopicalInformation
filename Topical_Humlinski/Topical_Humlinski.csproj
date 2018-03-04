@@ -171,11 +171,28 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\codww2.jpg" />
+    <Content Include="Images\destiny.png" />
+    <Content Include="Images\dw9.png" />
+    <Content Include="Images\fortnite.png" />
+    <Content Include="Images\linedpaper.png" />
+    <Content Include="Images\mhw.png" />
+    <Content Include="Images\mnfl18.png" />
+    <Content Include="Images\nfsp.png" />
+    <Content Include="Images\ptdx.png" />
+    <Content Include="Images\re7.jpg" />
+    <Content Include="Images\rottr.png" />
+    <Content Include="Images\s2.png" />
+    <Content Include="Images\sf.jpg" />
+    <Content Include="Images\sotc.png" />
+    <Content Include="Images\w2tnc.png" />
+    <Content Include="Images\xc2.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\TopicalHumlinski - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -203,6 +220,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Game\Index.cshtml" />
     <Content Include="Views\Game\Details.cshtml" />
+    <Content Include="Views\Game\Create.cshtml" />
+    <Content Include="Views\Game\Delete.cshtml" />
+    <Content Include="Views\Game\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
